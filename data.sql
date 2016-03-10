@@ -1,0 +1,19 @@
+-- INSERT INTO categories (name)
+-- VALUES
+-- ('Action'), ('Comedy'), ('Drama'), ('Horror'), ('Sci-Fi');
+--
+-- INSERT INTO movies (title, year, category_id)
+-- VALUES
+-- ('Spider-man 2', 2004, (SELECT categories.id FROM categories WHERE categories.name = 'Action')),
+-- ('Good Will Hunting', 1997, (SELECT categories.id FROM categories WHERE categories.name = 'Drama')),
+-- ('Good Will Hunting', 1998, (SELECT categories.id FROM categories WHERE categories.name = 'Drama')),
+-- ('Starship Troopers', 1997, (SELECT categories.id FROM categories WHERE categories.name = 'Sci-Fi')),
+-- ('Gladiator', 2000, (SELECT categories.id FROM categories WHERE categories.name = 'Drama')),
+-- ('No Country For Old Men', 2008, (SELECT categories.id FROM categories WHERE categories.name = 'Drama')),
+-- ('The Matrix', 1999, (SELECT categories.id FROM categories WHERE categories.name = 'Sci-Fi')),
+-- ('Halloween', 1978, (SELECT categories.id FROM categories WHERE categories.name = 'Horror')),
+-- ('Bruce Almighty', 2003, (SELECT categories.id FROM categories WHERE categories.name = 'Comedy'));
+
+-- UPDATE categories SET name = 'Science Fiction' WHERE name = 'Sci-Fi';
+--
+-- DELETE FROM movies WHERE movies.id = 3;
